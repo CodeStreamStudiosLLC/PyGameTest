@@ -20,7 +20,7 @@
 	},
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [9000],
+	"forwardPorts": [8000],
 
 	// Use 'portsAttributes' to set default properties for specific forwarded ports. 
 	// More info: https://containers.dev/implementors/json_reference/#port-attributes
