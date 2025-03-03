@@ -8,16 +8,7 @@
             "name": "Python: Flask",
             "type": "python",
             "request": "launch",
-            "module": "flask",
-            "env": {
-                "FLASK_APP": "server.py",
-                "FLASK_ENV": "production",
-            },
-            "args": [
-                "run",
-                "--no-debugger",
-                "--no-reload"
-            ],
+            "program": "server.py",
             "jinja": true,
             "preLaunchTask": "Build Game"
         }

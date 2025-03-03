@@ -1,4 +1,6 @@
+multidict
 pygame
 pygbag
 flask
 flask-cors
+
